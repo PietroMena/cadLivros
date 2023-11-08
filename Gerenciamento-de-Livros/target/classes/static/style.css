@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+body{
+    background-color:white;
+    
+}
+
+.b1{
+    background-color:transparent;
+    width: 70%;
+    height: 50%;
+    border:20px solid transparent;
+    border-radius: 18px;
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
+}
+.b2{
+    background-color: transparent;
+    width: 70%;
+    height: 50%;
+    border:20px solid transparent;
+    border-radius: 18px;
+    margin-left: 20px;
+    color: rgb(0, 255, 0);
+    margin-top: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 100px rgb(7, 118, 255); 
+}
+
+.title{
+    color: rgb(0, 255, 0);
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.a{
+    font-size: 20px;
+}
+
+.b{
+    font-size: 20px;
+}
+
+.nome{
+    margin-left: 40px;
+}
+
+button{
+    background-color:black;
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+button:hover{
+    background-color:black;
+    color:rgb(0, 255, 30);  
+    font-size: 20px;
+    transform: scaleX(1.1);
+    box-shadow: inset 0 0 2px #fff, 
+    inset 1px 0 2px #f3bad6, 
+    inset 1px 0 6px #0ff, 
+    inset -6px 0 10px #f3bad6, 
+    inset 6px 0 30px #0ff, 
+    0 0 18px #fff, 4px 0 18px 
+    #f3bad6, -4px 0 18px #0ff;
+}
+
+input{
+    border: solid 4px rgb(23, 23, 12);
+    background-color:rgb(22, 218, 22);
+    background-size: 500% 100%;
+    font-size: 20px;
+    color: gold;
+    height: 20px;
+}
+
+.livraria{
+font-size: 60px;
+color: rgb(7, 118, 255);
+display: flex;
+text-align: center;
+justify-content: center;
+font-family: 'Carattere', cursive;
+}
+
+h1{
+    background-color: transparent;
+    width: 70%;
+    height: 50%;
+    border:3px solid rgb(0, 255, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    margin-top: 20px;
+    width: 500px;
+}

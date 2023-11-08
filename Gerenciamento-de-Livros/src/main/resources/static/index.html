@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro e Pesquisa de Livros</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="shortcut icon" href="/imagens/images.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <center>
+    <div class="title">
+      <div class="livraria">Libreria di Pietro</div>
+      <h1>Cadastro e Pesquisa de Livros</h1>
+    </div>
+  </center>
+  <center>
+    <div class="b1">
+      <div id="cadastro">
+        <center>
+          <h2 style="color:rgb(7, 118, 255); text-decoration:underline; font-size: 30px;">Cadastro de Livros</h2>
+        </center>
+        <form id="cadastroForm">
+          <center>
+            <div class="b">
+              <div class="nome"> <label for="descricao"><strong>NOME:</strong></label>
+                <input type="text" id="descricao" name="descricao" required><br>
+              </div>
+
+              <p></p>
+
+              <label for="isbn"><strong>ISBN:</strong></label>
+              <input type="text" id="isbn" name="isbn" required><br>
+            </div>
+          </center>
+          <p></p>
+          <center><button type="submit">📝Cadastrar</button></center>
+          <p></p>
+          <button style="margin: 0 15px;" type="button" onclick="atualizarLivro()">🔁Atualizar</button>
+
+          <button style="margin: 0 -60px 0 -2px;" type="button" onclick="apagarLivo()">❌Apagar</button>
+        </form>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="b2">
+      <div id="pesquisa">
+        <center>
+          <h2 style="color: rgb(7, 118, 255); text-decoration:underline; font-size: 30px;">Pesquisa do Livro</h2>
+        </center>
+        <form id="pesquisaForm">
+          <center>
+            <div class="a"><label for="searchId"><strong>ISBN do Livro:</strong></label>
+              <input type="text" id="searchId" name="searchId"><br>
+            </div>
+          </center>
+          <p></p>
+
+          <center><button type="button" id="gg" onclick="pesquisarLivro()">🔎Pesquisar</button></center>
+        </form>
+        <div id="resultadoPesquisa"></div>
+      </div>
+    </div>
+    <p style="font-size: 20px;"><strong>“A leitura é o caminho mais curto para o conhecimento”. — Aristóteles</strong></p>
+  </center>
+  <script src="js.js"></script>
+
+</body>
+
+</html>
